@@ -5,7 +5,7 @@
   </header>
     <% if enhanced_cart.length == 0 %>
       <h2>Your cart is empty!<h2>
-      <a href="/">Go Back to Home Page</a> 
+      <%= link_to "Go Back to Home Page", products_url %>
     <% else %>
   <div class="panel panel-default items">
     <table class="table table-bordered">
